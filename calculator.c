@@ -1,15 +1,19 @@
+//This a simple calculator program made in language...
+
+//inluding header files
 #include <stdio.h>
 
 int main()
-{
+{   //Declearing variables
     float num1, num2, result, sum, i;
     printf("\t\t\t\t*Welcome to Aniket's Calculator*\n");
     while (i = 1)
-    {
+    {   //taking user input
         printf("Enter the first number:\n");
         scanf("%f", &num1);
         printf("Enter the second number:\n");
         scanf("%f", &num2);
+        //asking user what to do
         printf(
             "Press 1 for Addition\n"
             "Press 2 for Subtraction\n"
